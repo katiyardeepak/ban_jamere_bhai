@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Main6Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="453dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textview7"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner16"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp">
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:lineSpacingExtra="@dimen/activity_horizontal_margin"
+            android:text="@string/textview8"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/spinnercustom"
+            android:text="@string/button19" />
+
+        <TextView
+            android:layout_width="453dp"
+            android:layout_height="47dp"
+            android:text="@string/textview9"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:lineSpacingExtra="@dimen/activity_horizontal_margin"
+            android:background="@drawable/spinnercustom"
+            android:text="@string/button20" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/textvie10"
+            android:inputType="text"
+            android:lineSpacingExtra="@dimen/activity_horizontal_margin" />
+
+
+        <Button
+            android:id="@+id/btn4"
+            android:background="@drawable/buttonmaker"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/button21" />
+    </LinearLayout>
+
+</ScrollView>

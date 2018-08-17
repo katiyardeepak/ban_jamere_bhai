@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.Material.Light.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context=".Main8Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/textview16"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:text="@string/textview15"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageview11"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_bright"
+            android:contentDescription="@string/todo3"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="191dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="@string/button27"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="332dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="30dp"
+            android:hint="@string/hint3"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="345dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="30dp"
+            android:hint="@string/hint4"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="334dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="30dp"
+            android:hint="@string/hint2"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spinner28"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/select_center_type1"
+            android:spinnerMode="dialog"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner29"
+            android:layout_width="match_parent"
+            android:spinnerMode="dialog"
+            android:layout_height="50dp"
+            android:text="@string/select_school_name1"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner31"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:spinnerMode="dialog"
+            android:background="@drawable/spinnercustom"
+            android:text="@string/select_disease"
+            android:textSize="18sp" />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/famale" />
+</RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="@string/do_you_want_to_fillup_complete_form_right_now"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/radiobbutton8"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton8"
+            android:textSize="20sp" />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:hint="@string/name3"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="60dp"
+            android:hint="@string/hint6"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="57dp"
+            android:hint="@string/hint7"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="65dp"
+            android:hint="@string/hint8"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:hint="@string/hint9"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spinner32"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/select_center1"
+            android:spinnerMode="dialog"
+            android:background="@drawable/spinnercustom"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/button29"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/button28"
+            android:textSize="20sp"
+            android:background="@drawable/buttonmaker"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
